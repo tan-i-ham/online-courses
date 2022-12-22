@@ -1,7 +1,7 @@
 from socket import *
 
 server_name = 'localhost'
-server_port = 12001
+server_port = 8081
 client_socket = socket(AF_INET, SOCK_STREAM)
 client_socket.connect((server_name, server_port))
 
